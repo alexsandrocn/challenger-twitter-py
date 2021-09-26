@@ -109,7 +109,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.idea
 .env
 .venv
 env/
@@ -119,6 +118,7 @@ env.bak/
 venv.bak/
 files/
 src/__pycache__/
+.idea
 
 # Spyder project settings
 .spyderproject
