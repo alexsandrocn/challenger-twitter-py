@@ -1,11 +1,12 @@
-# Desafio Data Challenger DIO/Banco Carrefour
-O [Banco Carrefour](https://www.linkedin.com/company/banco-carrefour/), [Carrefour](https://www.linkedin.com/company/carrefour/) e [Digital Innovation One Inc.](https://www.linkedin.com/company/digitalinnovation-one/) apresentam o Data Challenge.
+# Projeto Data Challenge Digital Innovation One  e Banco Carrefour
+Este projeto "Data Challenge" apresenta um desafio usando a linguagem python promovido pelo [Banco Carrefour](https://www.linkedin.com/company/banco-carrefour/), e a [Digital Innovation One Inc.](https://www.linkedin.com/company/digitalinnovation-one/). O codigo apresenta como resultado os trending topics do twitter.
 
-Um desafio que premiara os candidatos em dinheiro:
+Premiação em dinheiro:
  1º lugar: R$ 2500,00
  2º lugar: R$ 1000,00
  3º lugar: R$ 500,00
 e chances de contratação!
+
 ## | O DESAFIO |
 Desenvolver uma aplicação para monitorar o trending topics e seu devido volume na rede social com o passar do tempo:
 

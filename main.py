@@ -1,8 +1,9 @@
 from typing import List
 from fastapi import FastAPI
 import uvicorn
-from src.services import get_trends_from_mongo, save_trends
+
 from src.responses import TrendItem
+from src.services import get_trends_from_mongo, save_trends
 
 
 app = FastAPI()
@@ -18,5 +19,4 @@ if __name__ == "__main__":
 
     if not trends:
         save_trends()
-
     uvicorn.run(app, host='0.0.0.0', port=8000)

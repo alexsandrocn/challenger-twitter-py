@@ -1,5 +1,7 @@
 from typing import List, Dict, Any
+
 import tweepy
+
 from src.connection import trends_collection
 from src.constants import WOEID
 from src.secrets import consumer_key, access_token, access_token_secret, consumer_secret
@@ -30,8 +32,7 @@ def get_trends_from_mongo() -> List[Dict[str, Any]]:
 
 
 def save_trends() -> None:
-
     trends = _get_trends(woe_id=WOEID)
     trends_collection.insert_many(trends)
 
-    return trends[0]["trends"]
+
